@@ -14,3 +14,8 @@ class ItemCreate(BaseModel):
 class UserCreate(BaseModel):
     username: str
     password: str
+
+# {"id": xx, "username": "xxx"}
+class UserOut(BaseModel):
+    id: int
+    username: str
